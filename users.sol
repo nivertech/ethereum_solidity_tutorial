@@ -11,15 +11,15 @@ contract Users {
     // Register the provided name with the caller address.
     // Also, we don't want them to register "" as their name.
     function register(string32 name) {
-        if(users[name] == 0 && name != ""){
+        if(name != "" && users[name] == 0){
             users[name] = msg.sender;
         }
     }
 
     // Unregister the provided name with the caller address.
     function unregister(string32 name) {
-        if(users[name] != 0 && name != "" && users[name] == msg.sender) {
-            users[name] = 0x0;
+        if(name != "" && users[name] != 0 && users[name] == msg.sender) {
+            users[name] = 0;
         }
     }
 }
