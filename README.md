@@ -12,3 +12,9 @@ Permissions Part I: Oh no he didn't!
 - https://eng.erisindustries.com/tutorials/2015/03/15/permissions-1/
 
 ...
+
+-----------------------------------------------------
+
+#### Dapps for Beginners.Ethereum contract tutorials.
+- https://dappsforbeginners.wordpress.com/
+
